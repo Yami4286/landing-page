@@ -1,10 +1,18 @@
+
+
+
+
 body{
     display: flex;
 flex-direction: column;
 margin: 0;
 height: 100%;
+background-color: grey;
+min-width: 760px;
 }
-
+html{
+    height:100%;
+}
 .header{
     display: flex; 
     justify-content: space-evenly;
@@ -19,9 +27,7 @@ height: 100%;
     list-style-type: none;
         gap: 16px;
 }
-.third{
-    flex:1;
-}
+
 .logo{
     font-weight: 700;
     font-size: larger;
@@ -29,14 +35,14 @@ height: 100%;
 
 
 .imga{
-    height: 250px;
-    width: 500px;
+    height: 200px;
+    width: 400px;
   
 }
 
  img{
-    height: 150px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 
  }
 
@@ -44,7 +50,8 @@ height: 100%;
  .lis{
     display: flex;
     justify-content: center;
-    gap:30px;
+    gap:60px;
+    flex-wrap: wrap;
  }
  .text{
   text-align: center;
@@ -61,12 +68,14 @@ height: 100%;
     justify-content: center;
     align-items: center;
 }
-html{
-    height:100%;
-}
+
+
 p{
+    margin: 0;
+    margin-bottom: 10px;
     text-align: left;
-    width: 300px;
+ font-size: large;
+    width: 500px;
 }
 
 .first{
@@ -74,3 +83,50 @@ display: flex;
 flex-direction: column;
 gap:33px;
 }
+
+
+
+.catch{
+    width:200px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.io {
+    margin-bottom: 40px;
+}
+
+.Sechand{
+    display:flex;
+    justify-content:center;
+    margin:32px;
+    font-weight:bolder;
+    font-size:x-large;
+    }
+
+    .ute{
+        padding: 5px 24px;
+    }
+
+  .fourth{
+    background-color: #E5E7EB;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 220.5px;
+  }
+h4.st{
+    padding-right: 12px;
+    margin: 0;
+    align-self: flex-end;
+}
+.thor{
+    display: flex;
+    flex-direction: column;
+}
+.third  {
+    min-height: 320px;
+    flex-basis:320px;
+}
+    
