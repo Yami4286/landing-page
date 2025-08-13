@@ -1,0 +1,17 @@
+.header{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2931;
+    color: white;
+}
+.links{
+    display: flex;
+    list-style-type: none;
+        gap: 16px;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: larger;
+}
