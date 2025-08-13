@@ -8,7 +8,8 @@ flex-direction: column;
 margin: 0;
 height: 100%;
 background-color: grey;
-min-width: 760px;
+min-width: 1035px;
+font-family:"Roboto",sans-serif;
 }
 html{
     height:100%;
@@ -26,6 +27,7 @@ html{
     display: flex;
     list-style-type: none;
         gap: 16px;
+        flex-shrink: 0;
 }
 
 .logo{
@@ -37,13 +39,14 @@ html{
 .imga{
     height: 200px;
     width: 400px;
-  
+  border: #1f2931 5px solid;
 }
 
  img{
     height: 100px;
     width: 100px;
-
+ border: 5px solid blue;
+ border-radius: 25px;
  }
 
  
@@ -56,14 +59,15 @@ html{
  .text{
   text-align: center;
  }
- .oil {
-   border: 5px solid blue;
- }
+
 .is{
     justify-content: center;
 }
 
 .footer{
+    color:white;
+    padding: 12px;
+    background-color: #1f2931;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +79,7 @@ p{
     margin-bottom: 10px;
     text-align: left;
  font-size: large;
-    width: 500px;
+    width: 600px;
 }
 
 .first{
@@ -87,7 +91,7 @@ gap:33px;
 
 
 .catch{
-    width:200px;
+    width:220px;
     font-weight: bolder;
     margin: 0;
 }
@@ -129,4 +133,48 @@ h4.st{
     min-height: 320px;
     flex-basis:320px;
 }
+.cta{
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+   padding-right: 80px;
+}
+.ct{
+    background-color: grey;
+    display:flex;
+    padding: 50px;
+    justify-content:center;
+}
     
+.wc{
+    display: flex;
+
+}
+.bit {display: flex;
+    color: white;
+    border-radius: 25px;
+    border:5px solid royalblue;
+ background-color:royalblue;
+    padding: 22px;
+ padding-left: 60px;
+ padding-right: 60px;
+
+}  
+
+ .pa{
+        margin: 12px;        
+    }
+
+   .but{
+        padding-top: 4px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 2px;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+    
+    button{
+        border-radius: 5px;
+    }
